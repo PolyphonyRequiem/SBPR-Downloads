@@ -5,7 +5,11 @@
 **Production server:** `Niflheim-Prelude`, `50.52.127.244:2476`.
 This is the existing Prelude world, not `trailborne-test`. The server world and player saves have not been reset.
 
-**Current release:** launcher **0.1.4**, Trailborne modpack **0.2.48**, Valheim **1.0.12 / network 40** (Steam client build `25253764`). Trailborne is enabled; Homestead Stones remain disabled. Existing server-side helpers are retained.
+**Current release:** launcher **0.1.4**, client modpack **0.2.48**, server admission hotfix **0.2.49**, Valheim **1.0.12 / network 40** (Steam client build `25253764`). Trailborne is enabled; Homestead Stones remain disabled. Existing server-side helpers are retained.
+
+## Server admission
+
+The server now requires the SBPR activation handshake before exchanging world data. Unmodified clients or inactive SBPR profiles are rejected. Existing 0.2.48 clients already support the handshake; no new client download is required for this server-only fix. This is a compatibility gate, not anti-cheat or cryptographic client attestation.
 
 ## Join
 

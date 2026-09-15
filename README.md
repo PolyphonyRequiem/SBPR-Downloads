@@ -5,8 +5,8 @@
 **Production:** `Niflheim-Prelude`, `50.52.127.244:2476`. This is the existing world,
 not the separate playtest. No world reset, character reset or save rollback.
 
-**Current release:** launcher **0.1.6**, client/server mod **0.2.51**, server-only
-Eternal Flame **1.0.1**. Valheim **1.0.12 / network40**, Steam build `25253764`.
+**Current release:** launcher **0.1.6**, client mod **0.2.52**, server mod **0.2.51**,
+server-only Eternal Flame **1.0.1**. Valheim **1.0.12 / network40**, Steam build `25253764`.
 Trailborne is active; Homestead Stones remain disabled.
 
 ## Update and join
@@ -45,9 +45,14 @@ folders; do not delete them or your saves as a workaround.
 
 ## Changes
 
-Launcher 0.1.6 adds authenticated self-update, independent live version checks and
-recovery for failed replacement startup. This is a launcher-only release; the
-following modpack 0.2.51 changes remain unchanged:
+Client hotfix **0.2.52** fixes the Local Map and Surveyor's Table losing their
+map raster after logout and rejoin in the same Valheim process. The viewer now
+refreshes its copied material when the scene-owned shader changes. Fully exit
+Valheim once to install the update using **Update & play**; no map recrafting,
+save migration or server restart is needed. Launcher 0.1.6 is unchanged.
+
+Launcher 0.1.6 provides authenticated self-update, independent live version checks
+and recovery for failed replacement startup. Earlier modpack 0.2.51 content remains:
 
 Three Spade trail lights and Leather Straps (1 Leather Scraps -> 5 at Explorer's
 Bench). Three-Legged Torch Stand is the standard new light. Old Path Lamps no
@@ -73,6 +78,12 @@ Launcher 0.1.6 passed native Linux same-path update, refused-start rollback and
 interrupted-update recovery checks. Published archives were anonymously downloaded
 and hash-verified; Windows publisher signatures and timestamps were verified.
 **Native Windows launcher execution has not been exercised.**
+
+For client 0.2.52, the retained native regression fails the old DLL after relog
+and passes both map modes through two bundle teardown/rejoin cycles on the new
+DLL. The exact distributed package passes the shipping launcher 0.1.6 validator;
+only the client plugin DLL and refreshed licence metadata change. This was an
+isolated Linux Unity test, **not a Windows/D3D gameplay relog test**.
 
 For modpack 0.2.51, native bundle coexistence/menu checks and real Linux launcher
 install/update/game launch passed. Windows portal travel/logout replay remains

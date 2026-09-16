@@ -5,7 +5,7 @@
 **Production:** `Niflheim-Prelude`, `50.52.127.244:2476`. This is the existing world,
 not the separate playtest. No world reset, character reset or save rollback.
 
-**Current release:** launcher **0.1.6**, client mod **0.2.52**, server mod **0.2.51**,
+**Current release:** launcher **0.1.6**, client mod **0.2.53**, server mod **0.2.53**,
 server-only Eternal Flame **1.0.1**. Valheim **1.0.12 / network40**, Steam build `25253764`.
 Trailborne is active; Homestead Stones remain disabled.
 
@@ -44,6 +44,23 @@ configuration and unowned files. If an update fails, retain Details and recovery
 folders; do not delete them or your saves as a workaround.
 
 ## Changes
+
+**0.2.53** corrects the Surveyor's Table from stone to wooden-furniture support.
+Both client and server are updated; launcher 0.1.6 is unchanged. Fully exit
+Valheim, then use **Prelude → Update & play** in the existing launcher. Keep
+the same managed folder and character. No world reset or save migration.
+
+The table keeps 800 HP, its recipe, saved identity and survey data format, and
+still collapses when genuinely unsupported. Wood also lowers its outgoing
+support capacity, so structures built atop tables may receive less support.
+
+Source review, 1,992 tests, client/server builds, shipping-launcher package
+validation and dedicated startup passed. Native placement/support, saved-table
+and ownership-transfer tests remain unverified: the isolated test runtime failed
+to start. The operator explicitly accepted that gap for release; this is not a
+claim that every placement rejection or stone-edge case has been reproduced.
+
+### Earlier updates
 
 Client hotfix **0.2.52** fixes the Local Map and Surveyor's Table losing their
 map raster after logout and rejoin in the same Valheim process. The viewer now

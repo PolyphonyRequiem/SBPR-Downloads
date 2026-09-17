@@ -5,8 +5,8 @@
 **Production:** `Niflheim-Prelude`, `50.52.127.244:2476`. This is the existing world,
 not the separate playtest. No world reset, character reset or save rollback.
 
-**Current release:** launcher **0.1.6**, client mod **0.2.55**, server mod **0.2.55**,
-server-only Eternal Flame **1.0.1**. Valheim **1.0.12 / network40**, Steam build `25253764`.
+**Current release:** launcher **0.1.6**, client mod **0.2.56**, server mod **0.2.56**,
+server-only Eternal Flame **1.0.1**. Valheim **1.0.14 / network40**, Steam build `25364265`.
 Trailborne is active; Homestead Stones remain disabled.
 
 ## Update and join
@@ -44,6 +44,21 @@ configuration and unowned files. If an update fails, retain Details and recovery
 folders; do not delete them or your saves as a workaround.
 
 ## Changes
+
+## Prelude 0.2.56
+
+- Local Map: right-click to read without equipping; M reopens a carried map. Comma/period rotate it. New approved framed-hide art and icon; add 6 Leather Straps to the map recipe. Existing map snapshots and saved identities remain.
+- Explorer's Bench: approved compact table, icon and cylindrical collider. Existing station identity and recipe remain.
+- Spade and Cartographer's Kit: approved new models and icons, with the equipped kit visible on the left hip. Add 3 Leather Straps to the Spade recipe and 6 to the Kit recipe.
+- All four pigments: approved wooden-pot models and transparent inventory icons.
+- Neck ink: new Ink Gland material and approved art. Ordinary Necks have a 50% base drop chance; normal starred/world resource scaling remains. One- and two-star Necks gain a weak two-shot ink attack with a brief slow and damage-over-time effect.
+- Black Pigment now requires **1 Neck Ink Gland → 2 Black Pigment**, replacing Coal. Its description reads “A dark pigment, made from Neck ink.”
+
+**Gameplay validation is deferred by Daniel's explicit instruction.** Build/package integrity and server startup are checked; this is not a completed gameplay/visual/multiplayer acceptance claim.
+
+Fully close Valheim, let Steam finish its current Valheim update, then open the existing launcher, select **Prelude**, and use **Update & play**. Keep the same managed folder and character. Launcher 0.1.6 is unchanged. No world reset or save rollback.
+
+### Previous release: 0.2.55
 
 **0.2.55** combines longer-lived cairns with updated appearances for the three
 existing trail lights and Leather Straps. No new recipes or pieces. Dry total

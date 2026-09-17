@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "serverId": "prelude",
-  "releaseId": "niflheim-prelude-0.2.53",
+  "releaseId": "niflheim-prelude-0.2.55",
   "expiresUtc": "2026-10-14T23:51:19.112452+00:00",
   "connectAddress": "50.52.127.244:2476",
   "platforms": {
     "linux-x64": {
-      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.53/SBPR-Trailborne-Modpack-v0.2.53.zip",
-      "sha256": "d2144622ac96d24df01535a9cc100be13c49a7674f60a15b17b15187c1952f4c",
-      "sizeBytes": 5503551,
-      "unpackedSizeBytes": 7879908,
+      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.55/SBPR-Trailborne-Modpack-v0.2.55.zip",
+      "sha256": "369edad0f534882cf6830ac5a45ef2821bd7842d01ba15662e0dfb1816a2f6bd",
+      "sizeBytes": 5956245,
+      "unpackedSizeBytes": 8333370,
       "gameVersion": "1.0.12 (network 40)",
       "gameBuildId": 25253764
     },
     "win-x64": {
-      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.53/SBPR-Trailborne-Modpack-v0.2.53.zip",
-      "sha256": "d2144622ac96d24df01535a9cc100be13c49a7674f60a15b17b15187c1952f4c",
-      "sizeBytes": 5503551,
-      "unpackedSizeBytes": 7879908,
+      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.55/SBPR-Trailborne-Modpack-v0.2.55.zip",
+      "sha256": "369edad0f534882cf6830ac5a45ef2821bd7842d01ba15662e0dfb1816a2f6bd",
+      "sizeBytes": 5956245,
+      "unpackedSizeBytes": 8333370,
       "gameVersion": "1.0.12 (network 40)",
       "gameBuildId": 25253764
     }

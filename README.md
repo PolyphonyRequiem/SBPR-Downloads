@@ -5,7 +5,7 @@
 **Production:** `Niflheim-Prelude`, `50.52.127.244:2476`. This is the existing world,
 not the separate playtest. No world reset, character reset or save rollback.
 
-**Current release:** launcher **0.1.6**, client mod **0.2.53**, server mod **0.2.53**,
+**Current release:** launcher **0.1.6**, client mod **0.2.55**, server mod **0.2.55**,
 server-only Eternal Flame **1.0.1**. Valheim **1.0.12 / network40**, Steam build `25253764`.
 Trailborne is active; Homestead Stones remain disabled.
 
@@ -44,6 +44,20 @@ configuration and unowned files. If an update fails, retain Details and recovery
 folders; do not delete them or your saves as a workaround.
 
 ## Changes
+
+**0.2.55** combines longer-lived cairns with updated appearances for the three
+existing trail lights and Leather Straps. No new recipes or pieces. Dry total
+cairn lifetimes from full repair, including downgrades, are **2 / 5 / 9 / 15 / 28
+real days** for tiers 1–5 at normal running-world clock speed. Sleep/time skips
+still count; stopped servers do not age cairns. Rain wears lower tiers faster,
+only while raining in player-loaded areas, with no unloaded rain backfill.
+
+Fully close Valheim, then open the existing launcher, select **Prelude**, and use
+**Update & play**. Keep the same managed folder and character. Launcher 0.1.6 is
+unchanged. Gameplay and saved-instance validation follows this release; do not
+read publication as a completed-playtesting claim.
+
+### Previous release: 0.2.53
 
 **0.2.53** corrects the Surveyor's Table from stone to wooden-furniture support.
 Both client and server are updated; launcher 0.1.6 is unchanged. Fully exit

@@ -5,7 +5,7 @@
 **Production:** `Niflheim-Prelude`, `50.52.127.244:2476`. This is the existing world,
 not the separate playtest. No world reset, character reset or save rollback.
 
-**Current release:** launcher **0.1.6**, client mod **0.2.56**, server mod **0.2.56**,
+**Current release:** launcher **0.1.6**, client mod **0.2.57**, server mod **0.2.57**,
 server-only Eternal Flame **1.0.1**. Valheim **1.0.14 / network40**, Steam build `25364265`.
 Trailborne is active; Homestead Stones remain disabled.
 
@@ -44,6 +44,19 @@ configuration and unowned files. If an update fails, retain Details and recovery
 folders; do not delete them or your saves as a workaround.
 
 ## Changes
+
+## Prelude 0.2.57 — cartography and Neck ink fixes
+
+- **Local Map crafting:** corrects the registration failure that hid the recipe at the Explorer's Bench. Selects the intact wood material rather than a snow overlay. The recipe is unchanged: **2 Deer Hide + 1 Fine Wood + 6 Leather Straps**.
+- **Trailblazer's Spade:** separates its back-mounted fitting from the held model, correcting the stowed orientation without changing hand grip or dropped-item fitting.
+- **Cartographer's Kit:** adjusts its worn left-hip position to improve body clearance.
+- **Neck ink:** restores the projectile trail, impact splash/sound and cosmetic coating feedback. Damage, slow, attack timing and recipes are unchanged.
+
+**Before joining:** fully close Valheim, open your existing **0.1.6 launcher → Prelude → Update & play**, and keep the same managed folder and character. Valheim remains **1.0.14 (network 40)**. No world reset or save rollback; no new launcher download is needed if already on 0.1.6.
+
+This release includes source-reviewed fixes and build/package integrity checks. Further in-game testing was not run; publication is not a gameplay or visual acceptance claim. Please report issues in the bug-reports channel.
+
+### Previous release: 0.2.56
 
 ## Prelude 0.2.56
 

@@ -7,17 +7,17 @@
   "platforms": {
     "linux-x64": {
       "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.57/SBPR-Trailborne-Modpack-v0.2.57.zip",
-      "sha256": "539b64135184319fc634c98198ea81f9b204cf4366f1c54bbbd3665d110adaa5",
-      "sizeBytes": 4914062,
-      "unpackedSizeBytes": 7496875,
+      "sha256": "d9c693eded56245f07c0eb4857d5f446ca45517ec33563bf92015b100789f7af",
+      "sizeBytes": 4914119,
+      "unpackedSizeBytes": 7496911,
       "gameVersion": "1.0.14 (network 40)",
       "gameBuildId": 25364265
     },
     "win-x64": {
       "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-0.2.57/SBPR-Trailborne-Modpack-v0.2.57.zip",
-      "sha256": "539b64135184319fc634c98198ea81f9b204cf4366f1c54bbbd3665d110adaa5",
-      "sizeBytes": 4914062,
-      "unpackedSizeBytes": 7496875,
+      "sha256": "d9c693eded56245f07c0eb4857d5f446ca45517ec33563bf92015b100789f7af",
+      "sizeBytes": 4914119,
+      "unpackedSizeBytes": 7496911,
       "gameVersion": "1.0.14 (network 40)",
       "gameBuildId": 25364265
     }

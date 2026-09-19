@@ -10,16 +10,16 @@
       "sha256": "cc736fdb5acce171d98782b56b683c8a318975060ab78f5dd057e9e63224a837",
       "sizeBytes": 5503744,
       "unpackedSizeBytes": 7882276,
-      "gameVersion": "1.0.12 (network 40)",
-      "gameBuildId": 25253764
+      "gameVersion": "1.0.15 (network 40)",
+      "gameBuildId": 25390630
     },
     "win-x64": {
       "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-playtest-0.2.51/SBPR-Trailborne-Modpack-v0.2.51.zip",
       "sha256": "cc736fdb5acce171d98782b56b683c8a318975060ab78f5dd057e9e63224a837",
       "sizeBytes": 5503744,
       "unpackedSizeBytes": 7882276,
-      "gameVersion": "1.0.12 (network 40)",
-      "gameBuildId": 25253764
+      "gameVersion": "1.0.15 (network 40)",
+      "gameBuildId": 25390630
     }
   }
 }

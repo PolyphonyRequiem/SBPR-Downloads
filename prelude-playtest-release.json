@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
   "serverId": "prelude-playtest",
-  "releaseId": "prelude-playtest-0.2.64",
-  "expiresUtc": "2026-10-20T18:20:24.000000+00:00",
+  "releaseId": "prelude-playtest-0.2.65",
+  "expiresUtc": "2026-10-21T00:39:47.389Z",
   "connectAddress": "50.52.127.244:2486",
   "platforms": {
     "linux-x64": {
-      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-playtest-0.2.64/SBPR-Trailborne-Modpack-v0.2.64-playtest-devtools.1.zip",
-      "sha256": "4d832e73baccaa22702d9f1460ef5b99b87004aac03dde0a5b3d1592c56e9967",
-      "sizeBytes": 5606202,
-      "unpackedSizeBytes": 8669921,
+      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-playtest-0.2.65/SBPR-Trailborne-Modpack-v0.2.65-playtest-devtools.2.zip",
+      "sha256": "22e8ffb7a530cc8ef7f8e36a866a404d18c69fcd51cd77afc49567c0fb90ea0e",
+      "sizeBytes": 6166692,
+      "unpackedSizeBytes": 9352366,
       "gameVersion": "1.0.15 (network 40)",
       "gameBuildId": 25390630
     },
     "win-x64": {
-      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-playtest-0.2.64/SBPR-Trailborne-Modpack-v0.2.64-playtest-devtools.1.zip",
-      "sha256": "4d832e73baccaa22702d9f1460ef5b99b87004aac03dde0a5b3d1592c56e9967",
-      "sizeBytes": 5606202,
-      "unpackedSizeBytes": 8669921,
+      "url": "https://github.com/PolyphonyRequiem/SBPR-Downloads/releases/download/prelude-playtest-0.2.65/SBPR-Trailborne-Modpack-v0.2.65-playtest-devtools.2.zip",
+      "sha256": "22e8ffb7a530cc8ef7f8e36a866a404d18c69fcd51cd77afc49567c0fb90ea0e",
+      "sizeBytes": 6166692,
+      "unpackedSizeBytes": 9352366,
       "gameVersion": "1.0.15 (network 40)",
       "gameBuildId": 25390630
     }
